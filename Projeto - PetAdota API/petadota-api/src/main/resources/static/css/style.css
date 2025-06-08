@@ -1,0 +1,42 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #d4d4d4; /* Um cinza bem claro */
+    color: #343a40;
+}
+
+/* Cabeçalho (Navbar) */
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+/* Cards de Animais */
+.card {
+    transition: transform .2s, box-shadow .2s;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,.2);
+}
+
+.card-img-top {
+    height: 400px;
+    object-fit: cover; 
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #6b6b6b;
+    color: white;
+    padding: 2rem 0;
+    margin-top: 4rem;
+}
